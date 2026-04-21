@@ -89,17 +89,17 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <Id>maven-site-plugin</Id>
+        <artifactId>maven-site-plugin</artifactId>
         <version>3.21.0</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <Id>maven-project-info-reports-plugin</Id>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
         <version>3.9.0</version>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
-        <Id>jacoco-maven-plugin</Id>
+        <artifactId>jacoco-maven-plugin</artifactId>
         <version>${jacoco-maven-plugin.version}</version>
         <executions>
           <execution>
@@ -149,7 +149,7 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <Id>maven-javadoc-plugin</Id>
+        <artifactId>maven-javadoc-plugin</artifactId>
         <version>${maven-javadoc-plugin.version}</version>
       </plugin>
     </plugins>
