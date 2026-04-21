@@ -81,7 +81,7 @@
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
-        <Id>exec-maven-plugin</Id>
+        <artifactId>exec-maven-plugin</artifactId>
         <version>3.6.3</version>
         <configuration>
           <mainClass>edu.pitt.cs.RentACatImpl</mainClass>
