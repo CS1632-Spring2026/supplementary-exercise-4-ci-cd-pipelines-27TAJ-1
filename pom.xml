@@ -69,7 +69,7 @@
 
     <dependency>
       <groupId>edu.pitt.cs</groupId>
-      <Id>rentacat-solution</Id>
+      <artifactId>rentacat-solution</artifactId>
       <version>1.0.0</version>
       <systemPath>${pom.basedir}/rentacat-solution-1.0.0.jar</systemPath>
       <scope>system</scope>
