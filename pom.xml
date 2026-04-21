@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-pipelines</artifactId>
+  <artifactId>cs1632-cicd-pipelines-taj82</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -35,6 +35,14 @@
     <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/CS1632-Spring2026/supplementary-exercise-4-ci-cd-pipelines-27TAJ-1</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
@@ -61,7 +69,7 @@
 
     <dependency>
       <groupId>edu.pitt.cs</groupId>
-      <artifactId>rentacat-solution</artifactId>
+      <Id>rentacat-solution</Id>
       <version>1.0.0</version>
       <systemPath>${pom.basedir}/rentacat-solution-1.0.0.jar</systemPath>
       <scope>system</scope>
@@ -73,7 +81,7 @@
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
+        <Id>exec-maven-plugin</Id>
         <version>3.6.3</version>
         <configuration>
           <mainClass>edu.pitt.cs.RentACatImpl</mainClass>
@@ -81,17 +89,17 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
+        <Id>maven-site-plugin</Id>
         <version>3.21.0</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <Id>maven-project-info-reports-plugin</Id>
         <version>3.9.0</version>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
+        <Id>jacoco-maven-plugin</Id>
         <version>${jacoco-maven-plugin.version}</version>
         <executions>
           <execution>
@@ -141,7 +149,7 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
+        <Id>maven-javadoc-plugin</Id>
         <version>${maven-javadoc-plugin.version}</version>
       </plugin>
     </plugins>
